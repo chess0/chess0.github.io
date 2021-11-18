@@ -1,0 +1,50 @@
+@media screen and (max-width: 700px ) {
+    .recherche {
+        position: absolute;
+        left: -870px;
+        top: 90px;
+       
+    }
+    .recherche input{
+        width: 200px;
+    }
+    #menuToggle{
+        top: 30px;
+        left: 30px;
+    }
+    .logo{
+        left: 285px;    
+        width: 5px;   
+    }
+    .container .logo img{
+        width: 60px;
+    }
+    .text .titre{
+        font-size: 20px;
+        left: 100px;
+        color: var(--couleur-testiare);
+    }
+    .text .genius{
+        font-size: 17px;
+        top: 235px;
+        left: 20px;
+    }
+    #slider{
+        top: 330px;
+        left: 60px;
+        width: 70%;
+    }
+    .bn54 {
+        top: 600px;
+        left: 90px;
+        width: 200px;
+    }
+    .bn54 .bn54span{
+        font-size: 12px;
+    }
+    #slide{
+        top: 170px;
+        left: 50px;
+        width: 80%;
+    }
+}

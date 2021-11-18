@@ -1,0 +1,51 @@
+#slide {
+	overflow: hidden;
+    width: 95%;
+    height: 60%;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+#slide figure {
+	position: relative;
+	width: 500%;
+	height: 500%;
+	margin: 0;
+	left: 0;
+	animation: 10s slide infinite;
+}
+#slide figure img {
+	width: 20%;
+	float: left;
+}
+
+
+@keyframes slide {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: 50%;
+	}
+}

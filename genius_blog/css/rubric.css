@@ -1,0 +1,28 @@
+.news{
+    background-color: rgb(255, 255, 255);
+    color: var(--couleur-testiare);
+    width: 3%;
+    height: 3%;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 600px;
+    left: 20px;
+}
+.article{
+    position: absolute;
+    top: 575px;
+    left: 60px;
+    color: var(--couleur-testiare);
+}
+@media screen and (max-width: 700px ) {
+    .news{
+        width: 8%;
+        height: 3%;
+        top: 350px;
+    }
+    .article{
+        top: 325px;
+        left: 50px;
+    }
+}

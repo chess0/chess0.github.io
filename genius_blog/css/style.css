@@ -1,0 +1,85 @@
+@import url("barre_search.css;");
+@import url("nav_barre.css");
+@import url("slider.css");
+@import url("buton.css");
+@import url("slider2.css");
+@import url("rubric.css");
+@import url("genius.css");
+@import url("portrait.css");
+@import url("footer.css");
+@import url("responsives.css");
+
+:root{
+    --couleur-principale: #DB67C8;
+    --couleur-secondary: #FFFFFF;
+    --couleur-testiare: #570048;
+    --couleur-texte: #FFFFFF;
+    --font:    font-family: "Helvetica Neue", "Arial",  sans-serif;
+
+}
+
+#body{
+    background-color: var(--couleur-principale);
+}
+.container{
+    display: flex;
+}
+
+.container .logo{
+    position: absolute;
+    right: 760px;
+    top: 15px;
+}
+.logo img{
+        width: 100px;
+}
+ .recherche input {
+    border: 3px;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 30px;
+    top: 25px;
+    left: 950px;
+}
+
+.titre{
+    display: inline;
+    margin: 10px;
+    position: absolute;
+    font-size: 3em;
+    top: 200px;
+    left: 160px;
+    font-family: var(--font);
+    color: var(--couleur-texte);
+}
+.genius{
+    display: inline;
+    margin: 10px;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-size: large;
+    font-size: 2.2em;
+    font-family: var(--font);
+    color: var(--couleur-texte);
+    
+}
+
+/*.bouton{
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 300px;
+    background-color: var(--couleur-testiare);
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    color: var(--couleur-secondary)
+}
+.more a{
+    text-decoration: none;
+    color: var(--couleur-texte);
+    position: absolute;
+    top: 615px;
+    right: 635px;
+}

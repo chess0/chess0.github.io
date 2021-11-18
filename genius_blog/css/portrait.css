@@ -1,0 +1,96 @@
+ .fatim h1{
+    left: 500px;
+    font-size: 50px;
+     position: absolute;
+     top: 100px;
+     color: var(--couleur-testiare);
+
+ }
+ .fatim p{
+     position: absolute;
+     font-size: 29px;
+     top: 250px;
+     left: 560px;
+ }
+ .fatim .slogan{
+     position: absolute;
+     top: 475px;
+     left: 480px;
+ }
+ .fatim img{
+    width: 30%;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+.vibes img{
+    width: 20%;
+    position: absolute;
+    top: 800px;
+    left: 900px;
+}
+.vibes .log{
+    width: 23%;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+}
+.vibes .logs{
+    width: 20%;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.vibes h1{
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    font-size: 50px;
+    color: var(--couleur-testiare);
+
+}
+
+/* responsives */
+
+@media screen and (max-width: 700px ){
+    .fatim h1{
+        left: 65px;
+        font-size: 35px;
+         top: 150px;
+     }
+     .fatim p{
+         font-size: 11px;
+         top: 217px;
+         left: 110px;
+     }
+     .fatim .slogan{
+         top: 286px;
+         left: 110px;
+         font-size: 9px;
+     }
+     .fatim img{
+        width: 20%;
+        top: 230px;
+        left: 15px;
+    }
+    .vibes img{
+        width: 30%;
+        top: 450px;
+        left: 20px;
+    }
+    .vibes .log{
+        width: 30%;
+        top: 600px;
+        left: 125px;
+    }
+    .vibes .logs{
+        width: 30%;
+        top: 450px;
+        left: 230px;
+    }
+    .vibes h1{
+        top: 350px;
+        left: 50px;
+        font-size: 25px;
+    }
+}
